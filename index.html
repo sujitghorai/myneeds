@@ -1,197 +1,518 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>MyNeeds</title>
-<meta name="keywords" content="MyNeeds, myneeds, IT Networking, CCTV, CCTV Surveillance, Interior Design, IT Networking Solutions, Home Automation System, CCTV Security Surveillance, Interior Design & Services, Access Control System, Biometric, Time Attendance System, Elevator WiFi , Elevator CCTV, Automatic Gate Barrier System, Automatic Windows, Automatic Sensor Light, Furniture Design, Electrical Service, Building Networking, Stone Flooring, Water Pipe Line Work, Plumbing Services, 3D Wall Texture, RFID,  POS, Billing Machine, Best Service, Good Company, Good Review, Midnapore, Medinipur, West Bengal, CCTV Camera, Service, Sell, Supplier, CCTV Supplier " />
-<meta name="description" content="MyNeeds is Industry knowledge and strong background Company" />
-<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+ 
+  <title>MyNeeds</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-<link rel="stylesheet" href="css/coda-slider.css" type="text/css" charset="utf-8" />
+  <!-- Favicons -->
+  <link href="assets/img/1200.png" rel="LoGo icon">
+  <link href="assets/img/1200.png" rel="LoGo-icon">
 
-<script src="js/jquery-1.2.6.js" type="text/javascript"></script>
-<script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
-<script src="js/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-<script type="text/JavaScript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
+  <!-- =======================================================
+  * Template Name: Arsha - v3.0.2
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body onload="MM_preloadImages('images/TM - Copy.png')">
-	
-<div id="slider">
-	<div id="tooplate_wrapper">
-        <div id="tooplate_sidebar">
-		
-            <div id="header">
-               <img name="Logo" src="images/tooplate_logo.png" width="240" height="250" alt="" />
-			   
-            </div>    
-			
-            <div id="menu">
-                <ul class="navigation">
-                    <li><a href="#home" class="selected menu_01">Home</a></li>
-                    <li><a href="#aboutus" class="menu_02">About Us</a></li>
-                    <li><a href="#services" class="menu_03">Services</a></li>
-                    <li><a href="#gallery" class="menu_04">Gallery</a></li>
-                    <li><a href="#contactus" class="menu_05">Contact</a></li>
-                </ul>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">MyNeeds</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+     <!---<a href="#about" class="get-started-btn scrollto">Get Started</a>--->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+		<img src="assets/img/1200.png" width="350" height="300" longdesc="assets/img/1200.png">
+          <h1>Best Solutions For You!</h1>
+          <!--<h2>Better Solutions For You</h2>--->
+          <div class="d-lg-flex">
+            <!---<a href="#about" class="btn-get-started scrollto">Get Started</a>--->
+            <a href="https://www.youtube.com/watch?v=v7z69nCCUHA" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <!---  <section id="cliens" class="cliens section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section> ---><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p><strong><em><u>Why You Choose Us</u>:<u> <br>
+            </u></em></strong><em>MyNeeds have strong team on every field, every works Monitored by Engineer and that's just the way we like it. Clients trust us for the personalized service that can't be found in a large company. When you trust MyNeeds for solutions, you gain the advantages that only we can offer. </em></p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Highly Efficient Technology Solutions.</li>
+              <li><i class="ri-check-double-line"></i> CCTV Surveillance System, Biometric Security System.</li>
+			  <li><i class="ri-check-double-line"></i> Home Automation System, Digital Security System.</li>
+			  <li><i class="ri-check-double-line"></i> Building Networking, Electrical Services.</li>
+			  <li><i class="ri-check-double-line"></i> Interior and Exterior Design Services.</li>
+              <li><i class="ri-check-double-line"></i> Information Technology - IT Products Dealer.</li>
+			  <li><i class="ri-check-double-line"></i> Electrical Products Suppliers.</li>
+			  <li><i class="ri-check-double-line"></i> Electronic Toys Suppliers.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            
+              <p><strong><em><u>About MyNeeds</u>:<u> <br>
+            </u></em></strong><em>MyNeeds is Industry knowledge and strong background Company. It’s a Well-known and established its Functional as National System Integrator in Industry. MyNeeds is Skilled Man force in all the Support verticals with certified Installers in top brands. Have strong background for any project With Capability and ability to execute any End to End Project. We Define Goal > Develop Plan & Design > Identify Team Members > Define roles and responsibilities > Execute and Monitor Project > Testing > Deliver to Client.       </em></p>
+            
+			<u><em><strong>Our Vision</strong></em></u>:<u><br>
+ </u></em><em>Is to develop in a constant manner and grow as a major service provider to become a leading performer, in providing products quality and solutions in the competitive marketplace. Our professional, flexible and integrated process reflects in what we do. We always guide our customers to success. We have the ability to accelerate and quickly share the great work or products of your organization or business. </em> </em></p>
+ 
+ <u><em><strong>Our Mission</strong></em></u>:<u><br>
+ </u></em><em>Is to enhancing the business growth of our customers with creative Design and Development to deliver market-defining high-quality products and solutions that create value and reliable competitive advantage for our clients.</em> </em></p>
+           <!--- <a href="#" class="btn-learn-more">Learn More</a>--->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3><strong>Excellent Standards in Smart Intelligent Security Products.</strong></h3>
+              <p>
+                We are expert in providing cutting edge technology in security & surveillance domain. Our product ranges from closed circuit cameras to biometrics and entrance security products to access control systems.
+              </p>
+			  
             </div>
-		</div> <!-- end of sidebar -->  
-    
-        <div id="content">
-          <div class="scroll">
-            <div class="scrollContainer">
-              <div class="panel" id="home">
-                <div class="content_section">
-                  <h2 align="center">Welcome to MyNeeds </h2>
-                  <div align="center"><img name="Cover" src="images/tooplate_image_01.png" width="500" height="250" alt="" />
+
+           <!--- <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
                   </div>
-                  
-                  
-                </div>
-                <div class="content_section last_section">
-                  <h2>Our Services</h2>
-                  <ul class="service_list">
-                    <li><a href="https://www.youtube.com/watch?v=0lw3R_qChUw" class="service_one"> <strong>IT Networking Solutions.</strong> </a></li>
-                    <li><a href="https://www.youtube.com/watch?v=YreUf1wUGrU" class="service_two"> <strong>Home Automation System.</strong> </a> </li>
-                    <li><a href="https://www.youtube.com/watch?v=gNqzxgW3SbM&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=8" class="service_three"> <strong>CCTV Security Surveillance & Online System.</strong> </a></li>
-                    <li><a href="https://www.youtube.com/watch?v=PV-ZdnHwO7s&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=3" class="service_four"> <strong>Interior Design & Services.</strong> </a></li>
-                    <li><a href="https://myneedsss.business.site/#service" class="service_five"><strong>To See our more Services click here.</strong></a></li>
-                  </ul>
-                </div>
-              </div> <!-- end of home -->
+                </li>
+
+                <li>
+                  <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>--->
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section>  <!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills"> 
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Creative and artistic of Interior and Exterior Designing</h3>
+            <p class="font-italic">
+              We understands our client's needs and demands very well. Whether it be small scale remodelling to large scale designing we 		               always focus on quality and beauty as customers are our first priority.
+            </p> 
+			</div>
+		</div>
+	  </div>
+	</section>
+
+
+      	  
+<!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>MyNeeds has established the network for after sales service & support all over the channels. The qualified and experienced service experts provide the quickest and best service to you. MyNeeds also provides service with customized features and offers professional to meet various customers’ demands.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Home Automation</a></h4>
+              <p># Full Home Automation.</p>
+			  <p># Semi Home Automation.</p>
+			  <p># Office Automation.</p>
+			  <p># Automated Boom Barrier System.</p>
+			  <p># Automated Gate System.</p>
+			  <p># Motion Sensor Light System.</p>
+			  <p># Day/Night Sensor Light System.</p>
+			  <p># Gas Leakage Detector System.</p>
+              <p># Automatic Water Pump On/Off System.</p>
+			  <p># RFID ID Detection System.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Information Technology</a></h4>
+              <p># IT Networking Solutions.</p>
+			  <p># CCTV Surveillance System.</p>
+			  <p># Biometric/Time Attendance System.</p>
+			  <p># Digital Security System.</p>
+			  <p># Access Control System(WiFi).</p>
+			  <p># Elevator WiFi and CCTV System.</p>
+			  <p># Elevator WiFi and CCTV System.</p>
+			  <p># Building Networking.</p>
+			  <p># POS - Billing Machine.</p>
 			  
-              <div class="panel" id="aboutus">
-                <div class="content_section">
-                  <h3><strong>About Us</strong></h3>
-                 <!--<!-- <img src="images/tooplate_image_02.jpg" alt="Image 02" class="image_wrapper image_fl" /> -->
-                  <p><blockquote>MyNeeds is Industry knowledge and strong background Company. It’s a Well-known and established its Functional as National System Integrator in Industry. MyNeeds is Skilled Man force in all the Support verticals with certified Installers in top brands. Have strong background for any project With Capability and ability to execute any End to End Project.</blockquote></p>
-                  
-				  <!--<h3><strong>Why You Choose Us:</strong></h3>
-				  <p><blockquote> MyNeeds have strong team on every field, every works Monitored by Engineer and that's just the way we like it. Clients trust us for the personalized service that can't be found in a large company. When you trust MyNeeds for solutions, you gain the advantages that only we can offer. </blockquote></a>.</p> -->
-				  
-				   <h3><strong>Our Vision:</strong></h3>
-				  <p><blockquote> Is to develop in a constant manner and grow as a major service provider to become a leading performer, in providing products quality and solutions in the competitive marketplace. Our professional, flexible and integrated process reflects in what we do. We always guide our customers to success. We have the ability to accelerate and quickly share the great work or products of your organization or business. </st></blockquote></a>.</p>
-				  
-				  <h3><strong>Our Mission: </strong></h3>
-				  <p><blockquote>Is to enhancing the business growth of our customers with creative Design and Development to deliver market-defining high-quality products and solutions that create value and reliable competitive advantage for our clients.</blockquote></a>.</p>
-				  <h3><strong>Founder</strong></h3>
-                  <blockquote>
-                    <p>MyNeeds was founded by <a href="https://facebook.com/SGsujitghorai">Sujit Ghorai</a> in Midnapore at Kuikota, West Bengal, India. He is an IT Engineer, Master in Software & Information Technology, Have huge work experience in India & Abroad. He is Friendly, Determined, Passionate and Professional who believes in Making Difference in a Way. </p>
-                    
-                </div>
-				
-                <div class="content_section last_section">
-                  <!--<h2>Founder</h2>
-                  <
-                    <p>MyNeeds was founded by <a href="https://facebook.com/SGsujitghorai">Sujit Ghorai</a> in Midnapore at Kuikota, West Bengal, India. He is an IT Engineer, Master in Software & Information Technology, Have huge work experience in India & Abroad. He is Friendly, Determined, Passionate and Professional who believes in Making Difference in a Way. </p>
-                     -->
-                </div>
-              </div> <!-- end of aboutus -->
-			  
-              <div class="panel" id="services">
-                <h2>Service Overview</h2>
-                <p><blockquote>We Define Goal > Develop Plan & Design > Identify Team Members > Define roles and responsibilities > Execute and Monitor Project > Testing > Deliver to Client.</blockquote></p>
-                <!--<img src="images/tooplate_image_02.jpg" alt="Image" class="image_wrapper image_fr" />
-                <p>Sed eu libero quis neque laoreet cursus. Fusce elit metus, elementum nec consequat a, interdum vitae est. Aliquam sit amet odio vitae dui blandit elementum. Ut eu dolor nunc. Nam in nunc sed mi adipiscing lacinia suscipit eget tortor. Vivamus lacinia lectus in velit aliquet ac placerat magna euismod. In hac habitasse platea dictumst. Integer eget nibh eu libero cursus ultricies neque dolor imperdiet ligula, quis viverra tellus nulla a odio. Curabitur vitae enim risus, at placerat turpis. Mauris feugiat suscipit tempus fringilla, felis in velit. Phasellus quis volutpat dui.</p> -->
-				<h3><strong>Why You Choose Us:</strong></h3>
-				  <p><blockquote> MyNeeds have strong team on every field, every works Monitored by Engineer and that's just the way we like it. Clients trust us for the personalized service that can't be found in a large company. When you trust MyNeeds for solutions, you gain the advantages that only we can offer. </blockquote></a>.</p>
-				  
-				 <a href="https://myneedsss.business.site/#testimonials"</a> <marquee behavior="scroll" direction="left"><h1>Testimonials</h1></marquee>
-				  
-				  <ul class="service_list">
-                  <li><a href="https://www.youtube.com/watch?v=0lw3R_qChUw" class="service_one"><strong>IT Networking Solutions.</strong></a></li>
-                  <li><a href="https://www.youtube.com/watch?v=YreUf1wUGrU" class="service_two"><strong>Home Automation System.</strong></a></li>
-                  <li><a href="https://www.youtube.com/watch?v=gNqzxgW3SbM&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=8" class="service_three"><strong>CCTV Security Surveillance & Online System.</strong></a></li>
-                  <li><a href="https://www.youtube.com/watch?v=PV-ZdnHwO7s&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=3" class="service_four"><strong>Interior Design & Services.</strong></a></li>
-                  <li><a href="https://myneedsss.business.site/#service" class="service_five"><strong>To See our more Services click here.</strong></a></li>
-                </ul>
-              </div> <!-- end of services -->
-			  
-              <div class="panel" id="gallery">
-                <h1>Our Galleries</h1>
-                <div id="gallery_container">
-                  <div class="gallery_box float_l">
-                    <h4>IT Networking Solutions</h4>
-                    <a href="https://www.youtube.com/watch?v=0lw3R_qChUw"><img src="images/gallery/image_01.jpg" alt="Project 1" /></a> </div>
-                  <div class="gallery_box float_r">
-                    <h4>Home Automation System</h4>
-                    <a href="https://www.youtube.com/watch?v=YreUf1wUGrU&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=2"><img src="images/gallery/image_02.jpg" alt="Project 2" /></a> </div>
-                  <div class="gallery_box float_l">
-                    <h4>CCTV Security Surveillance </h4>
-                    <a href="https://www.youtube.com/watch?v=gNqzxgW3SbM&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=8"><img src="images/gallery/image_03.jpg" alt="Project 3" /></a> </div>
-                  <div class="gallery_box float_r">
-                    <h4>Interior Design & Services</h4>
-                    <a href="https://www.youtube.com/watch?v=PV-ZdnHwO7s&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=3"><img src="images/gallery/image_04.jpg" alt="Project 4" /></a> </div>
-                  <div class="gallery_box float_l">
-                    <h4>Electrical Services</h4>
-                    <a href="https://www.youtube.com/watch?v=DTm49-dAe4U&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=42"><img src="images/gallery/image_05.jpg" alt="Project 5" /></a> </div>
-                  <div class="gallery_box float_r">
-                    <h4>Building Networking</h4>
-                    <a href="https://www.youtube.com/watch?v=uZr9gkv_LcM&list=UUovgl5u3a4nQ8WxU4C1Q3lA&index=18"><img src="images/gallery/image_06.jpg" alt="Project 6" /></a> </div>
-                  <div class="cleaner"></div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Interior & Exterior</a></h4>
+              <p># Interior & Exterior Design.</p>
+			  <p># Interior & Exterior Services.</p>
+			  <p># Modular Kitchen.</p>
+			  <p># False Ceiling.</p>
+			  <p># Wardrobe.</p>
+			  <p># Steel Work Design.</p>
+			  <p># 3D Wall Texture & Paint Art.</p>
+			  <p># Wall Wallpaper.</p>
+			  <p># Networking Planning.</p>
+			  <p># Electrical Planning.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Dealer & Suppliers</a></h4>
+              <p># Information Technology - IT Products & Accessories</p>
+			   <p># All Digital Security System & Accessories</p>
+			    <p># CCTV Surveillance System & Accessories</p>
+				 <p># Electronic Toys.</p>
+				  <p># Electrical Products.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Call Or WhatsApp:</h3>
+            <h1><p><strong> +91-9933559464</strong></p></h1>
+			<!---<h3>Email:</h3>
+            <h1><p><strong> myneedsss@gmail.com</strong></p></h1>--->
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://api.whatsapp.com/send?phone=919933559464&text=">WhatsApp</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">Home Automation</li>
+          <li data-filter=".filter-card">Information Technology</li>
+          <li data-filter=".filter-web">Interior & Exterior</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Automation 1</h4>
+              <p>Automation</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Interior & Exterior 3</h4>
+              <p>Interior & Exterior</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Automation 2</h4>
+              <p>Automation</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Information Technology 2</h4>
+              <p>Information Technology</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Interior & Exterior 2</h4>
+              <p>Interior & Exterior</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Automation 3</h4>
+              <p>Automation</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Information Technology 1</h4>
+              <p>Information Technology</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Information Technology 3</h4>
+              <p>Information Technology</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Interior & Exterior 3</h4>
+              <p>Interior & Exterior</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Showing a little appreciation goes a long way, for team members when they do a great job,  it's also important to communicate when there is room for improvement.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start"data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>SUJIT GHORAI</h4>
+                <span>Business Owner</span>
+				<span>IT Engineer (Master in Software & Information Technology).</span>
+                <p>"I am Passionate about my Job and Professional who believes making difference in a way."</p>
+                <div class="social">
+                 <!--- <a href=""><i class="ri-twitter-fill"></i></a> --> <!---Twiter---> 
+                  <a href="http://facebook.com/SGSujitghorai"><i class="ri-facebook-fill"></i></a> <!---Facebook--->
+                 <!--- <a href="https://api.whatsapp.com/send?phone=919933559464&text="><i class="ri-whatsapp-fill"></i></a> --->  <!---WhatsApp--->
+               <!---   <a href=""> <i class="ri-linkedin-box-fill"></i> </a> ---> <!---LinkdIN--->
+			    
                 </div>
               </div>
-			  
-              <div class="panel" id="contactus">
-                <h2>Contact Us</h2>
-				<!--<li><a href="mailto:myneedsss@gmail.com">Email: myneedsss@gmail.com</a></li>
-				<li><a href="tel:+91-99335-59464" title="Call Us: +91 9933559464">Call Us: +91 9933559464</a></li>
-				<li><a href="https://api.whatsapp.com/send?phone=919933559464&text=" title="WhatsApp: +91 9933559464">WhatsApp: +91 9933559464</a></li> -->
+            </div>
+          </div>
+		  </div>
+ </div>
+    </section>
+   
+	
+	<!-- End Team Section -->
 
-               <div class="cleaner_h10"></div>
-				
-                <div class="col_380 float_l">
-                  <div id="contact_form">
-				  <iframe src="https://business.google.com/websites/forms?st=services&hl=en&lid=883528053015109870&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.jw7XZHvcak8.O%2Fam%3DwQE%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAGLTcCOXtLG11kt9d673FzpjO_GiLUGIQA%2Fm%3D__features__" style="height:370px;width:500px;"></iframe>
-                    <!--<form method="post" name="contact" action="#">
-                      <label for="author">Name:</label>
-                      <input type="text" maxlength="40" id="author" class="input_field" name="author" />
-                      <div class="cleaner_h10"></div>
-                      <label for="email">Email:</label>
-                      <input type="text" maxlength="40" id="email" class="input_field" name="email" />
-                      <div class="cleaner_h10"></div>
-                      <label for="subject">Subject:</label>
-                      <input type="text" maxlength="40" id="subject" class="input_field" name="subject" />
-                      <div class="cleaner_h10"></div>
-                      <label for="text">Message:</label>
-                      <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                      <div class="cleaner_h10"></div>
-                      <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
-                      <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
-                    </form> -->
-                  </div>
-				  
-				 <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-        var setting = {"height":200,"width":792,"zoom":17,"queryString":"MyNeeds, Lane, Midnapore, West Bengal, India","place_id":"ChIJm4N2rRNbHToRyqhPKEpvrIQ","satellite":false,"centerCoord":[22.43973635655826,87.32456284999998],"cid":"0x84ac6f4a284fa8ca","lang":"en","cityUrl":"/us/ne/lane-44605","cityAnchorText":"Map of Lane, Nebraska, United States","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"203251"};
+ 
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+         <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Kuikota(Kali Temple Lane), Midnapore Town, Paschim Medinipur, West Bengal, India - 721101</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>myneedsss@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 9933559464</p>
+              </div>
+
+             <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+		<script>(function () {
+        var setting = {"height":270,"width":792,"zoom":17,"queryString":"MyNeeds, Lane, Midnapore, West Bengal, India","place_id":"ChIJm4N2rRNbHToRyqhPKEpvrIQ","satellite":false,"centerCoord":[22.43973635655826,87.32456284999998],"cid":"0x84ac6f4a284fa8ca","lang":"en","cityUrl":"/us/ne/lane-44605","cityAnchorText":"Map of Lane, Nebraska, United States","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"203251"};
         var d = document;
         var s = d.createElement('script');
         s.src = 'https://embedgooglemap.1map.com/js/script-for-user.js?embed_id=203251';
@@ -201,37 +522,130 @@ function MM_swapImage() { //v3.0
         };
         var to = d.getElementsByTagName('script')[0];
         to.parentNode.insertBefore(s, to);
-      })();</script><a href="https://embedgooglemap.1map.com">1 Map</a></div>
+      })();</script><a href="https://embedgooglemap.1map.com">1 Map</a>
+             </div>
 
-                </div>
-				
-                <div class="col_380 float_r"> </div>
-              </div>
             </div>
-          </div><!-- end of scroll -->
-		</div>
-    </div> <!-- end of content -->
-</div>
 
-<div id="footer">
-    
-	<div id="social_box">
-		<a href="https://www.facebook.com/SGmyneeds"><img src="images/facebook.png" alt="Facebook" /></a>
-        <a href="https://api.whatsapp.com/send?phone=919933559464&text="><img src="images/flickr.png" alt="WhatsApp" /></a>
-        <a href="https://www.facebook.com/groups/SGmyneeds"><img src="images/myspace.png" alt="Facebook Group" /></a>
-        <a href="https://myneedsss.business.site/"><img src="images/twitter.png" alt="Google" /></a>
-        <a href="https://www.youtube.com/channel/UCovgl5u3a4nQ8WxU4C1Q3lA"><img src="images/youtube.png" alt="YouTube" /></a>
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+			<iframe src="https://business.google.com/websites/forms?st=services&hl=en&lid=883528053015109870&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.jw7XZHvcak8.O%2Fam%3DwQE%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAGLTcCOXtLG11kt9d673FzpjO_GiLUGIQA%2Fm%3D__features__" style="height:500px;width:600px;"></iframe>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+    <!---  <div class="container">
+        <div class="row justify-content-center">
+           <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+			             <input type="email" name="email"><input type="submit" value="Subscribe"> 
+            </form>
+          </div>
+        </div>  
+      </div> --->
     </div>
-    
-    <div id="footer_left">
-		
-		Copyright ©  <a href="https://myneedsss.business.site/">MyNeeds</a><br />
-		Designed & Developed by <a href="https://www.facebook.com/SGsujitghorai" target="_parent">SUJIT GHORAI</a><br />
-       
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>MyNeeds</h3>
+            <p>
+              Kuikota(Kali Temple Lane),<br> 
+			  Midnapore Town, <br>
+			  Paschim Medinipur,<br>
+			  West Bengal, India - 721101 <br><br>
+              <strong>Phone:</strong> +91 9933559464<br>
+              <strong>Email:</strong> myneedsss@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home Automation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Information Technology</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Interior & Exterior</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dealer & Suppliers</a></li>
+            <!--  <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <!--<p>https://www.facebook.com/SGmyneeds</p>
+			<p>https://myneedsss.business.site/</p> -->
+            <div class="social-links mt-3">
+			<a href="https://www.facebook.com/SGmyneeds" class="facebook"><i class="bx bxl-facebook"></i></a>
+			 <a href="https://myneedsss.business.site/" class="google-plus"><i class="bx bxl-google"></i></a>
+             <a href="https://www.youtube.com/channel/UCovgl5u3a4nQ8WxU4C1Q3lA" class="YouTube"><i class="bx bxl-youtube"></i></a>
+             <!---     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>  -->
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-	
-    <div class="cleaner"></div>
-</div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyNeeds</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://facebook.com/SGSujitghorai/">SUJIT GHORAI</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="index.htm" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
