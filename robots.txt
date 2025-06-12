@@ -71,5 +71,3 @@ Disallow: /*?replytocom
 Sitemap: https://www.my-needs.in/sitemap_index.xml
 
 # --- End of Global Rules ---
-
-https://www.my-needs.in/sitemap_index.xml
