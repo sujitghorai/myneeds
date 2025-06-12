@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.my-needs.in/post-sitemap.xml</loc>
+    <lastmod>2025-06-12T10:00:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/page-sitemap.xml</loc>
+    <lastmod>2025-06-11T14:30:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/category-sitemap.xml</loc>
+    <lastmod>2025-06-10T09:15:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/product-sitemap.xml</loc>
+    <lastmod>2025-06-12T11:00:00+00:00</lastmod>
+  </sitemap>
+
+ <sitemap>
+    <loc>https://www.my-needs.in/home-sitemap.xml</loc>
+    <lastmod>2025-06-12T10:00:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/about-sitemap.xml</loc>
+    <lastmod>2025-06-11T14:30:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/Sales & Services-sitemap.xml</loc>
+    <lastmod>2025-06-10T09:15:00+00:00</lastmod>
+  </sitemap>
+<sitemap>
+    <loc>https://www.my-needs.in/portfolio-sitemap.xml</loc>
+    <lastmod>2025-06-12T10:00:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/team-sitemap.xml</loc>
+    <lastmod>2025-06-11T14:30:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.my-needs.in/contact-sitemap.xml</loc>
+    <lastmod>2025-06-10T09:15:00+00:00</lastmod>
+  </sitemap>
+
+</sitemapindex>
